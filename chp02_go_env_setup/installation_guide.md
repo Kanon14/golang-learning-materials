@@ -9,3 +9,6 @@
 ## Running Go Scripts
 * Step 1: In the terminal, type `go run demo.go`. This code snippet will create a temporary `demo.exe`. After that, execute the `.exe` file.
 * Step 2: This also can be done by running the `go build demo.go` to build the compiled version of `demo.exe` first. Then at the terminal, just run `demo.exe`. 
+
+## Additional notes
+* In Go, the usage is strict, if the package imported not been used. It will display error. Stricter == More accurate/catch bug before running in the production environment.
